@@ -14,7 +14,7 @@
         <scene sceneID="K0Z-af-oEo">
             <objects>
                 <viewController id="BjE-3f-vow" customClass="LoginViewController" customModule="CustomControls" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="OFa-pr-H6J">
+                    <view key="view" contentMode="scaleToFill" id="OFa-pr-H6J" customClass="SignupPage" customModule="CustomControls" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

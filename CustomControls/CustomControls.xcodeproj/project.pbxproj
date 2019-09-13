@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		05BC24C3232BCB32008C4F86 /* SignupPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BC24C2232BCB32008C4F86 /* SignupPage.swift */; };
 		3D12B3EE232B0A7B0012BADB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D12B3ED232B0A7B0012BADB /* AppDelegate.swift */; };
 		3D12B3F3232B0A7B0012BADB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D12B3F1232B0A7B0012BADB /* Main.storyboard */; };
 		3D12B3F5232B0A7C0012BADB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D12B3F4232B0A7C0012BADB /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		05BC24C2232BCB32008C4F86 /* SignupPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SignupPage.swift; path = ../SignupPage.swift; sourceTree = "<group>"; };
 		3D12B3EA232B0A7B0012BADB /* CustomControls.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomControls.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D12B3ED232B0A7B0012BADB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3D12B3F2232B0A7B0012BADB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -35,6 +37,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		05BC24C4232BCE78008C4F86 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				05BC24C2232BCB32008C4F86 /* SignupPage.swift */,
+			);
+			name = "New Group";
+			path = "Resources/New Group";
+			sourceTree = "<group>";
+		};
 		3D12B3E1232B0A7B0012BADB = {
 			isa = PBXGroup;
 			children = (
@@ -54,6 +65,7 @@
 		3D12B3EC232B0A7B0012BADB /* CustomControls */ = {
 			isa = PBXGroup;
 			children = (
+				05BC24C4232BCE78008C4F86 /* New Group */,
 				3D12B403232B0AD90012BADB /* View Controllers */,
 				3D12B3FF232B0AB30012BADB /* Storyboards */,
 				3D12B400232B0ABE0012BADB /* Resources */,
@@ -161,6 +173,7 @@
 			files = (
 				3D12B402232B0AD40012BADB /* LoginViewController.swift in Sources */,
 				3D12B3EE232B0A7B0012BADB /* AppDelegate.swift in Sources */,
+				05BC24C3232BCB32008C4F86 /* SignupPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
